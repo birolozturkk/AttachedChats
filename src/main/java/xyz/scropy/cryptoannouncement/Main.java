@@ -33,10 +33,10 @@ public class Main {
         App whatsappBot = new App(whatsappDriver, whatsappWelcomePage, whatsappChatPage);
 
         whatsappBot.navigateTo("https://web.whatsapp.com/");
-        whatsappBot.selectChatByName("Kısmet Ablammm");
+        whatsappBot.selectChatByName("Person1");
 
         telegramBot.navigateTo("https://web.telegram.org/k");
-        telegramBot.selectChatByName("Kısmet Ablammm");
+        telegramBot.selectChatByName("Person1");
 
         for (int i = 0; i < 60; i++) {
             Thread.sleep(1000);
